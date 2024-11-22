@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f3f6ff;
+}
+
+.shadowCard::after,
+.shadowCard::before {
+  content: "";
+  height: 13px;
+  width: 80%;
+  background-color: #ccd3ff;
+  position: absolute;
+  margin-top: 155px;
+  border-radius: 0 0 40px 40px;
+}
+.shadowCard::before {
+  content: "";
+  width: 70%;
+  background-color: #eaebfd;
+  margin-top: 166px;
+  right: 53px;
+}
